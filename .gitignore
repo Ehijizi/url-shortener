@@ -1,9 +1,10 @@
 # Terraform
 **/.terraform/
-**/.terraform.lock.hcl
+# .terraform.lock.hcl is intentionally tracked
 *.tfstate
 *.tfstate.*
 *.tfvars
+!terraform.tfvars
 !*.tfvars.example
 crash.log
 crash.*.log
