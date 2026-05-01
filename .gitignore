@@ -22,8 +22,8 @@ terraform.rc
 *.dylib
 *.test
 *.out
-bootstrap
-bootstrap.zip
+services/*/bootstrap
+services/*/bootstrap.zip
 vendor/
 
 # macOS
