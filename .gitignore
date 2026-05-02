@@ -50,3 +50,7 @@ vendor/
 dist/
 build/
 *.zip
+
+# Terraform plan files — ephemeral, may contain sensitive values
+tfplan
+*.tfplan
